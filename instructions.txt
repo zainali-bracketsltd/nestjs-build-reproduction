@@ -1,0 +1,16 @@
+
+-> run
+# npm install
+
+-> run
+# npm run build
+
+-> It will generate a dist/apps folder containing a reproduction folder with a main.js inside it
+
+
+
+-> now run (service is another nestjs app)
+# npm run build service
+
+-> It should not remove the build folder for reproduction but generate for service.
+-> But it removes reproduction and generates service
